@@ -1,0 +1,70 @@
+.item {
+    background-color: #FAFAFA;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+}
+
+.item-parrafo {
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.item-parrafo-completado {
+    text-decoration: line-through;
+}
+
+.icono {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.icono-check {
+    position: absolute;
+    left: 12px;
+}
+
+.icono-check-activo {
+    color: #4caf50;
+}
+
+.icono-eliminar {
+    position: absolute;
+    top: -24px;
+    right: 0;
+
+}
+
+.icono-editar {
+    position: absolute;
+    top: 12px;
+    right: 0;
+
+}
+
+.icono-editar:hover {
+    color: #d67612;
+}
+
+.icono-eliminar:hover {
+    color: red;
+}
+
+.icono-smile {
+    position: absolute;
+    top: 44px;
+    right: 0;
+}
